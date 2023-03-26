@@ -1,6 +1,16 @@
-This repo contains sample code for a serverless Jamstack tutorial that teaches users how to intergrate serverless functions into their Jamstack site. The tutorial will be published soon at docs.digitalocean.com.
+# Alacena - Recipe Explorer
 
-Once you complete the tutorial, the sample website contains:
+## Cloud Functions
 
-* DigitalOcean Serverless Functions (written in node) as a replacement for traditional backend APIs. The functions retrieve content from a MongoDB and render it on a static HTML page.
-* A static HTML website that uses CSS Bootstrap elements for styling and Axios to invoke the functions. The site contains a few JS scripts to dynamically render content.
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=7b57c70c6a1b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
+Hey, I am using this repo to build my cloud functions for my [Alacena - Recipe Explorer App](https://github.com/ausgomez/alacena-next-app).
+
+Feel free to see how I set it up. Basically I am just adding a few node functions that you
+can find under the `packages/cloud` folder that are the backend of my app.
+
+I followed this [tutorial](https://docs.digitalocean.com/tutorials/create-a-jamstack-site-using-serverless-functions/#start-tutorial) to understand them.
+
+---
+
+Digital Ocean is pretty cool, if you want to give it a try, use my referal link to get free $200 on credit for free! https://m.do.co/c/7b57c70c6a1b
