@@ -1,0 +1,10 @@
+packages:
+  - name: cloud
+    actions:
+      - name: getRecipes
+        limits:
+          timeout: 5000
+          memory: 256
+environment:
+  API_KEY: ${API_KEY}
+  SPOON_URL: ${SPOON_URL}
