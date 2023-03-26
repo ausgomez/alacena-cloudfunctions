@@ -4,14 +4,18 @@
     "namespace": "fn-88cb9b14-c97b-4c1f-a337-a618fd7cda99",
     "packageVersions": {
       "cloud": {
-        "version": "0.0.1",
-        "digest": "5d888459b555315010cf24bcb628e78fd49dfe6574a7c1fd5e8aac4a8d2abf61"
+        "version": "0.0.2",
+        "digest": "2c0ee80e25d4b642b451c188d0a2f1d7c0eab14c56b61e1ea47b2310528fd77d"
       }
     },
     "actionVersions": {
-      "cloud/getRecipes": {
+      "cloud/getRecipeById": {
         "version": "0.0.1",
-        "digest": "0bc4444b7ac5492a3b9e17c599b661a4c9507a4007087aceb465a3cfa42206b3"
+        "digest": "a956e88f1046b82c40089499e89f1b8c5bd4bdedd3766ddbf18d9ca5a871e951"
+      },
+      "cloud/getRecipes": {
+        "version": "0.0.2",
+        "digest": "1741ed58323df86df73244635b1841322cc1ae7df51e28f06de3b94c82e4bc82"
       }
     },
     "webHashes": {}

@@ -1,21 +1,28 @@
 const axios = require('axios');
 
-async function main() {
+async function main(args) {
+    const recipeId = args.recipeId;
+    if (!recipeId) {
+        return {
+            body: { error: 'No recipeId provided' },
+            statusCode: 400,
+        }
+    }
+
     const API_KEY = process.env.API_KEY;
     const SPOON_URL = process.env.SPOON_URL;
-    const URL_CTX = '/random'
-    const API_URL = SPOON_URL + URL_CTX;
+    const URL_CTX = '/information'
+    const API_URL = SPOON_URL + `/${recipeId}` + URL_CTX;
 
     try {
         const response = await axios.get(API_URL, {
             params: {
-                apiKey: API_KEY,
-                number: 9
+                apiKey: API_KEY
             }
         });
 
         return {
-            body: response.data.recipes,
+            body: response.data,
         };
     }
     catch (error) {
