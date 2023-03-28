@@ -1,4 +1,4 @@
-# Alacena - Recipe Explorer
+# Alacena - Recipe Explorer Cloud Functions
 
 ![Alacena](https://github.com/ausgomez/alacena-next-app/blob/main/public/logo.png?raw=true)
 
